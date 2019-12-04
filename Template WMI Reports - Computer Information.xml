@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2019-12-04T11:18:49Z</date>
+    <date>2019-12-04T13:14:25Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -70,8 +70,8 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>wmi.csmodel</key>
-                    <delay>30s</delay>
-                    <history>1h</history>
+                    <delay>1h</delay>
+                    <history>90d</history>
                     <trends>0</trends>
                     <status>0</status>
                     <value_type>1</value_type>
